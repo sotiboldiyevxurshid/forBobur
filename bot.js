@@ -22,6 +22,7 @@ bot.on('contact', (ctx) => {
     const phoneNumber = ctx.message.contact.phone_number;
     ctx.reply(`Telefon raqamingiz qabul qilindi: ${phoneNumber}`);
     console.log(phoneNumber)
+    
   });
 
 bot.launch();
